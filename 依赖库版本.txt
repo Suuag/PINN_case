@@ -1,0 +1,33 @@
+# PINN项目依赖库版本信息
+# 生成日期：2026年6月20日
+
+## Python 版本
+Python 3.10.10
+
+## 核心依赖库
+
+### TensorFlow
+tensorflow                    2.10.0
+tensorflow-cpu                2.10.0
+tensorflow-estimator          2.10.0
+tensorflow-io-gcs-filesystem  0.31.0
+
+### 数值计算
+numpy                         1.26.4
+
+### 数据处理
+pandas                        2.0.3
+
+### 可视化
+matplotlib                    3.7.2
+matplotlib-inline             0.1.6
+
+### 科学计算
+scipy                         1.10.1
+
+### 机器学习
+scikit-learn                  1.7.2
+
+## 备注
+- TensorFlow 2.10.0 与 protobuf 存在版本兼容性问题
+- 建议升级 TensorFlow 或降级 protobuf 到 3.20.x 版本

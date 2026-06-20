@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+
+# 模型文件（通常较大）
+*.keras
+*.h5
+*.hdf5
+*.pb
+saved_model/
+
+# 数据文件（通常较大）
+*.mat
+*.npz
+*.npy
+*.csv
+
+# 图片输出
+图片/
+结果表格/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
